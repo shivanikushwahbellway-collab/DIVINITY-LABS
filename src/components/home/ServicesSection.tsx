@@ -5,41 +5,41 @@ const services = [
   {
     icon: Building2,
     title: "Temple & Trust Digitisation",
-    description: "Comprehensive digital transformation solutions empowering temples and religious trusts with cutting-edge technology while honoring sacred traditions.",
+    description: "Digital transformation solutions designed for religious institutions and trusts, enabling digital presence while honoring sacred traditions.",
     features: [
-      "Digital onboarding of temples and trusts",
-      "Workflow digitisation for rituals and offerings",
-      "Devotee relationship management systems"
+      "Digital presence for religious institutions",
+      "Technology enablement for rituals and offerings",
+      "Devotee engagement frameworks"
     ]
   },
   {
     icon: CreditCard,
     title: "Payments & Compliance Infrastructure",
-    description: "Enterprise-grade payment solutions with full RBI compliance, ensuring secure and transparent financial operations for religious institutions.",
+    description: "Technology infrastructure for secure and compliant financial transactions for religious institutions.",
     features: [
-      "Secure payment gateway integrations",
-      "Automated transaction acknowledgements",
-      "Transparent reconciliation and reporting"
+      "Payment infrastructure integration",
+      "Digital transaction records",
+      "Compliance reporting systems"
     ]
   },
   {
     icon: ShoppingBag,
     title: "Sacred Commerce Enablement",
-    description: "India-first e-commerce platform for prasad and sacred items with seamless temple coordination and international readiness.",
+    description: "Technology solutions for prasad and sacred item distribution with international readiness.",
     features: [
-      "Prasad and sacred item ordering",
-      "Fulfilment coordination with temples",
-      "India-first architecture with international readiness"
+      "Fulfilment coordination technology",
+      "Supply chain enablement",
+      "Global distribution infrastructure"
     ]
   },
   {
     icon: Settings,
     title: "Governance & Operations Tools",
-    description: "Professional-grade management systems providing trustees with comprehensive oversight, audit capabilities, and scalable multi-temple operations.",
+    description: "Professional management systems providing oversight and scalability for multi-temple operations.",
     features: [
-      "Trustee-level dashboards",
-      "Audit-ready reporting",
-      "Scalable systems for multi-temple organisations"
+      "Institutional management tools",
+      "Data-driven insights",
+      "Scalable infrastructure for organisations"
     ]
   },
 ];
@@ -152,16 +152,7 @@ const ServicesSection = () => {
           })}
         </div>
 
-        {/* Call to Action */}
-        {/* <div className="text-center mt-20 animate-fadeInUp" style={{ animationDelay: '0.8s' }}>
-          <p className="text-foreground/60 mb-6 text-lg">
-            Ready to transform your institution's digital presence?
-          </p>
-          <button className="group inline-flex items-center gap-3 px-10 py-5 rounded-full bg-gradient-to-r from-primary to-gold-light text-white font-bold text-lg shadow-2xl hover:shadow-3xl transition-all duration-300 hover:-translate-y-1 hover:scale-105">
-            <span>Get Started Today</span>
-            <ArrowUpRight className="w-6 h-6 group-hover:rotate-45 transition-transform" />
-          </button>
-        </div> */}
+
       </div>
     </section>
   );

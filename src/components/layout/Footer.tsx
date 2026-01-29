@@ -140,7 +140,7 @@ const Footer = () => {
               </p>
               <p className="text-cream-muted/60 text-sm mt-1">
                 Divinity Labs Private Limited is a company incorporated under the Companies
-                Act, 2013.
+                Act, 2013. DevBhakti™ is a trademark of Divinity Labs Private Limited.
               </p>
             </div>
 

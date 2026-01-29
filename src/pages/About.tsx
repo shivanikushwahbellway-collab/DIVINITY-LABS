@@ -134,10 +134,15 @@ const About = () => {
                 </span>
               </div>
               <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-6">
-                Dev<span className="text-gradient-gold">Bhakti</span>.in
+                DevBhakti™
               </h2>
               <p className="text-foreground/70 text-xl max-w-3xl mx-auto">
-                A technology platform developed by Divinity Labs Private Limited to digitally connect temples and devotees
+                A technology platform operated by Divinity Labs Private Limited to digitally connect temples and devotees.
+              </p>
+              <p className="text-foreground/50 text-sm italic leading-relaxed mt-4 max-w-2xl mx-auto">
+                "DevBhakti™ is a technology platform operated by Divinity Labs Private Limited.
+                All religious services, rituals, and offerings are performed solely by the respective
+                temples or authorised institutions."
               </p>
             </div>
 
@@ -171,7 +176,7 @@ const About = () => {
                 </h3>
                 <div className="space-y-6">
                   <p className="text-white/90 leading-relaxed">
-                    DevBhakti.in is designed to empower religious institutions with modern digital infrastructure while preserving the sanctity and authenticity of spiritual practices.
+                    DevBhakti™ is designed to empower religious institutions with modern digital infrastructure while preserving the sanctity and authenticity of spiritual practices.
                   </p>
                   <div className="pt-4 border-t border-white/20">
                     <p className="text-sm text-white/80 mb-3">Platform Features:</p>

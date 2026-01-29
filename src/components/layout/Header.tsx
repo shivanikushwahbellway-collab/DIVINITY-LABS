@@ -86,7 +86,7 @@ const Header = () => {
               : "bg-white text-navy-deep hover:bg-cream-muted hover:shadow-xl"
               }`}
           >
-            GET STARTED
+            For institutional enquiries
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
@@ -126,7 +126,7 @@ const Header = () => {
                   className="block px-4 py-3 rounded-lg bg-primary text-white font-bold text-center mt-2"
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  GET STARTED
+                  CONTACT US
                 </Link>
               </li>
             </ul>

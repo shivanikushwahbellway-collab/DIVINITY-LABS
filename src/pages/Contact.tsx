@@ -23,10 +23,10 @@ const Contact = () => {
               Contact
             </p>
             <h1 className="font-serif text-4xl md:text-5xl font-semibold text-foreground mb-6">
-              Get in Touch
+              Institutional Enquiries
             </h1>
             <p className="text-cream-dark text-lg">
-              Reach out to us for business inquiries and partnerships.
+              For institutional, regulatory, or business enquiries, please reach out to us via email.
             </p>
           </div>
         </div>

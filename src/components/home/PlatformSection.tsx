@@ -3,11 +3,11 @@ import platformVisual from "@/assets/platform-visual.jpg";
 
 const PlatformSection = () => {
   const platformFeatures = [
-    "Online pooja, seva, and darshan bookings",
-    "Digital donations and offerings",
-    "Devotee and donor data management",
-    "Prasad and sacred item fulfilment workflows",
-    "Administrative dashboards for authorised temple representatives"
+    "Digital booking systems for religious services",
+    "Secure technology for donations and offerings",
+    "Information management for institutions",
+    "Sacred item distribution technology",
+    "Access portals for authorised representatives"
   ];
 
   return (
@@ -39,10 +39,10 @@ const PlatformSection = () => {
               </span>
             </div>
             <h2 className="font-serif text-5xl md:text-6xl lg:text-7xl font-bold text-foreground mb-8 leading-tight">
-              Dev<span className="text-gradient-gold inline-block hover:scale-105 transition-transform">Bhakti</span>.in
+              DevBhakti™
             </h2>
             <p className="text-foreground/70 text-xl md:text-2xl max-w-4xl mx-auto leading-relaxed">
-              The flagship platform developed by <span className="text-primary font-semibold">Divinity Labs Private Limited</span> to digitally connect temples and devotees
+              The technology platform developed by <span className="text-primary font-semibold">Divinity Labs Private Limited</span> to digitally connect temples and devotees
             </p>
           </div>
 
@@ -61,7 +61,7 @@ const PlatformSection = () => {
                   {/* Enhanced Badge */}
                   <div className="inline-flex items-center gap-3 px-5 py-3 rounded-full bg-gradient-to-r from-primary/10 to-gold/10 border border-primary/20 shadow-lg">
                     <TrendingUp className="w-5 h-5 text-primary" />
-                    <span className="text-sm text-primary font-bold tracking-wide">FLAGSHIP PRODUCT</span>
+                    <span className="text-sm text-primary font-bold tracking-wide">TECHNOLOGY PLATFORM</span>
                   </div>
 
                   <h3 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-tight">
@@ -72,10 +72,16 @@ const PlatformSection = () => {
                     <span className="text-gradient-gold">Devotees</span>
                   </h3>
 
-                  <p className="text-foreground/70 text-lg md:text-xl leading-relaxed">
-                    DevBhakti.in is a comprehensive digital ecosystem enabling temples
+                  <p className="text-foreground/90 text-lg md:text-xl leading-relaxed">
+                    DevBhakti™ is a comprehensive digital ecosystem enabling temples
                     to modernize their operations while devotees enjoy seamless spiritual
                     connections through secure, compliant technology infrastructure.
+                  </p>
+
+                  <p className="text-foreground/70 text-sm italic leading-relaxed pt-2 border-t border-gold/10">
+                    "DevBhakti™ is a technology platform operated by Divinity Labs Private Limited.
+                    All religious services, rituals, and offerings are performed solely by the respective
+                    temples or authorised institutions."
                   </p>
 
                   {/* Platform Features */}
@@ -94,44 +100,11 @@ const PlatformSection = () => {
                   </div>
 
                   {/* App Store Availability */}
-                  <div className="pt-6 space-y-5">
+                  <div className="pt-6 space-y-4">
                     <div className="flex items-center gap-3 text-foreground/70">
                       <Smartphone className="w-5 h-5 text-primary" />
-                      <span className="font-semibold">Available on:</span>
+                      <span className="font-semibold text-lg">Available on Google Play & App Store</span>
                     </div>
-
-                    <div className="flex flex-wrap gap-4">
-                      {/* Apple App Store Badge */}
-                      <div className="group flex items-center gap-3 px-6 py-3 rounded-xl bg-black text-white font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 cursor-pointer">
-                        <Store className="w-6 h-6" />
-                        <div className="text-left">
-                          <div className="text-xs opacity-80">Download on the</div>
-                          <div className="text-sm font-bold">Apple App Store</div>
-                        </div>
-                      </div>
-
-                      {/* Google Play Store Badge */}
-                      <div className="group flex items-center gap-3 px-6 py-3 rounded-xl bg-gradient-to-r from-green-600 to-green-500 text-white font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 cursor-pointer">
-                        <Download className="w-6 h-6" />
-                        <div className="text-left">
-                          <div className="text-xs opacity-90">GET IT ON</div>
-                          <div className="text-sm font-bold">Google Play</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* CTA Button */}
-                  <div className="pt-6">
-                    <a
-                      href="http://147.93.27.62:5101/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-3 px-10 py-5 rounded-full bg-gradient-to-r from-primary to-gold-light text-white font-bold text-lg shadow-2xl hover:shadow-3xl transition-all duration-300 hover:-translate-y-1 hover:scale-105 group"
-                    >
-                      <span>Visit DevBhakti.in</span>
-                      <ExternalLink className="w-6 h-6 group-hover:rotate-45 transition-transform" />
-                    </a>
                   </div>
                 </div>
 
@@ -144,7 +117,7 @@ const PlatformSection = () => {
                   <div className="relative rounded-2xl overflow-hidden shadow-2xl border-2 border-gold/30 group hover:border-primary/40 transition-all duration-500">
                     <img
                       src={platformVisual}
-                      alt="DevBhakti.in Platform Interface"
+                      alt="DevBhakti.com Platform Interface"
                       className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-700"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
@@ -156,35 +129,16 @@ const PlatformSection = () => {
                           <span className="font-serif text-2xl text-white font-bold">D</span>
                         </div>
                         <div>
-                          <div className="font-serif text-2xl text-foreground font-bold">DevBhakti.in</div>
-                          <div className="text-sm text-foreground/60">Digital Temple Platform</div>
+                          <div className="font-serif text-2xl text-foreground font-bold">DevBhakti™</div>
+                          <div className="text-sm text-foreground/60">Technology Platform</div>
                         </div>
                       </div>
                     </div>
                   </div>
 
-                  {/* Floating stats card - Temples */}
-                  <div className="absolute -bottom-6 -left-6 p-5 rounded-2xl bg-white shadow-2xl border-2 border-gold/20 animate-float">
-                    <div className="flex items-center gap-4">
-                      <div className="w-12 h-12 rounded-full bg-gradient-to-br from-green-100 to-green-200 flex items-center justify-center">
-                        <TrendingUp className="w-6 h-6 text-green-600" />
-                      </div>
-                      <div>
-                        <div className="text-2xl font-bold text-foreground">500+</div>
-                        <div className="text-sm text-foreground/60 font-medium">Temples Connected</div>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Floating rating badge */}
-                  <div className="absolute -top-4 -right-4 px-5 py-3 rounded-full bg-white shadow-2xl border-2 border-gold/30 flex items-center gap-2 animate-glowPulse">
-                    <Star className="w-5 h-5 text-primary fill-primary" />
-                    <span className="text-base font-bold text-foreground">4.9/5</span>
-                  </div>
-
                   {/* App Available Badge */}
-                  <div className="absolute top-6 -left-4 px-4 py-2 rounded-full bg-gradient-to-r from-primary to-gold text-white text-xs font-bold shadow-xl animate-pulse">
-                    MOBILE APP AVAILABLE
+                  <div className="absolute top-6 -left-4 px-4 py-2 rounded-full bg-gradient-to-r from-primary to-gold text-white text-xs font-bold shadow-xl">
+                    MOBILE PLATFORM AVAILABLE
                   </div>
                 </div>
               </div>

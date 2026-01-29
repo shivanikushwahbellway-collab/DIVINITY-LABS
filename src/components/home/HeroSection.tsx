@@ -53,10 +53,16 @@ const HeroSection = () => {
         <div className="max-w-5xl mx-auto text-center">
 
           {/* Badge */}
-          <div className="inline-flex items-center gap-3 px-6 py-3 rounded-full border border-gold/30 bg-navy-base/60 backdrop-blur-md mb-10 animate-slideUp">
-            <Sparkles className="w-5 h-5 text-white animate-glow" />
-            <span className="text-sm text-cream-muted font-medium tracking-wide">
-              Divinity Labs Private Limited
+          <div className="inline-flex flex-col md:flex-row items-center gap-3 px-6 py-3 rounded-2xl border border-gold/30 bg-navy-base/60 backdrop-blur-md mb-10 animate-slideUp">
+            <div className="flex items-center gap-3">
+              <Sparkles className="w-5 h-5 text-white animate-glow" />
+              <span className="text-sm text-white font-medium tracking-wide">
+                Divinity Labs Private Limited
+              </span>
+            </div>
+            <div className="hidden md:block w-px h-4 bg-white/20" />
+            <span className="text-xs text-white font-bold tracking-wider opacity-80">
+              CIN: U63112MH2025PTC462628
             </span>
           </div>
 
@@ -78,21 +84,14 @@ const HeroSection = () => {
             and compliant digital platforms for temples, religious institutions, and devotees.
           </p>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16 animate-slideUp stagger-3">
-            <a
-              href="/contact"
-              className="group inline-flex items-center gap-3 px-8 py-4 rounded-lg bg-gradient-to-r from-primary to-gold-light text-white font-semibold text-lg shadow-lg hover:shadow-primary/25 transition-all duration-300 hover:-translate-y-1"
-            >
-              <span>Get Started</span>
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </a>
-            <a
-              href="/about"
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-lg border border-white/20 text-white font-medium text-lg hover:bg-white/10 transition-all duration-300"
-            >
-              Learn More
-            </a>
+          {/* Neutral Contact Reference */}
+          <div className="flex flex-col items-center justify-center gap-4 mb-16 animate-slideUp stagger-3">
+            <p className="text-xl text-white font-medium">
+              For institutional enquiries, please write to{" "}
+              <a href="mailto:admin@divinitylabs.co.in" className="text-gold-light hover:text-gold-light transition-colors underline underline-offset-4">
+                admin@divinitylabs.co.in
+              </a>
+            </p>
           </div>
 
           {/* Feature Pills */}
@@ -127,13 +126,7 @@ const HeroSection = () => {
           </div>
         </div>
 
-        {/* Scroll Indicator */}
-        {/* <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
-          <div className="flex flex-col items-center gap-2">
-            <span className="text-xs text-cream-muted/50 tracking-widest">SCROLL</span>
-            <ChevronDown className="w-6 h-6 text-primary" />
-          </div>
-        </div> */}
+
       </div>
 
       {/* Bottom Gradient Transition */}

@@ -27,78 +27,48 @@ const ContactSection = () => {
               </span>
             </div>
             <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6">
-              Ready to Transform Your{" "}
-              <span className="text-gradient-gold">Institution?</span>
+              Institutional{" "}
+              <span className="text-gradient-gold">Enquiries</span>
             </h2>
             <p className="text-foreground/70 text-lg max-w-2xl mx-auto">
-              Get in touch with our team to discuss how we can help digitize your temple or religious organization.
+              For any institutional or regulatory enquiries, please reach out to our team via email.
             </p>
           </div>
 
           {/* Contact Cards Grid */}
-          <div className="grid md:grid-cols-2 gap-6 mb-12 max-w-3xl mx-auto">
+          {/* Contact Card */}
+          <div className="max-w-xl mx-auto">
             {/* Email Card */}
             <div
-              className="group relative p-8 rounded-2xl bg-white border border-border shadow-lg hover:shadow-xl transition-all duration-500 hover:-translate-y-2 animate-fadeInUp"
+              className="group relative p-10 rounded-2xl bg-white border border-border shadow-lg hover:shadow-xl transition-all duration-500 hover:-translate-y-2 animate-fadeInUp"
               style={{ animationDelay: '0.1s' }}
             >
               <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary to-gold-light rounded-t-2xl opacity-0 group-hover:opacity-100 transition-opacity" />
 
-              <div className="relative mb-6">
-                <div className="w-16 h-16 rounded-2xl bg-secondary flex items-center justify-center group-hover:bg-primary transition-all duration-300 group-hover:scale-110">
-                  <Mail className="w-8 h-8 text-primary group-hover:text-white transition-colors" />
+              <div className="relative mb-6 text-center">
+                <div className="w-20 h-20 mx-auto rounded-full bg-secondary flex items-center justify-center group-hover:bg-primary transition-all duration-300 group-hover:scale-110">
+                  <Mail className="w-10 h-10 text-primary group-hover:text-white transition-colors" />
                 </div>
               </div>
 
-              <h3 className="font-serif text-xl font-bold text-foreground mb-2">
-                Email Us
-              </h3>
-              <p className="text-foreground/70 text-sm mb-4">
-                For business inquiries and partnerships
-              </p>
-              <a
-                href="mailto:contact@divinitylabs.in"
-                className="text-lg font-semibold text-primary group-hover:text-gold-light transition-colors"
-              >
-                contact@divinitylabs.in
-              </a>
+              <div className="text-center">
+                <h3 className="font-serif text-2xl font-bold text-foreground mb-4">
+                  Email Correspondence
+                </h3>
+                <p className="text-foreground/70 text-lg mb-6">
+                  For institutional enquiries, please write to
+                </p>
+                <a
+                  href="mailto:admin@divinitylabs.co.in"
+                  className="text-2xl font-bold text-primary hover:text-gold-light transition-colors block break-all"
+                >
+                  admin@divinitylabs.co.in
+                </a>
+              </div>
             </div>
-
-            {/* Contact Page Card */}
-            <Link
-              to="/contact"
-              className="group relative p-8 rounded-2xl bg-gradient-to-br from-primary to-gold-light border border-transparent shadow-lg hover:shadow-xl transition-all duration-500 hover:-translate-y-2 animate-fadeInUp"
-              style={{ animationDelay: '0.2s' }}
-            >
-              <div className="relative mb-6">
-                <div className="w-16 h-16 rounded-2xl bg-white/20 flex items-center justify-center group-hover:bg-white/30 transition-colors">
-                  <Send className="w-8 h-8 text-white" />
-                </div>
-              </div>
-
-              <h3 className="font-serif text-xl font-bold text-white mb-2">
-                Contact Form
-              </h3>
-              <p className="text-white/80 text-sm mb-4">
-                Fill out our contact form and we'll get back to you
-              </p>
-              <div className="flex items-center gap-2 text-white font-semibold group-hover:gap-3 transition-all">
-                <span>Go to Contact Page</span>
-                <ArrowRight className="w-4 h-4" />
-              </div>
-            </Link>
           </div>
 
-          {/* CTA */}
-          <div className="text-center animate-fadeInUp" style={{ animationDelay: '0.4s' }}>
-            <Link
-              to="/contact"
-              className="inline-flex items-center gap-3 px-10 py-5 rounded-xl bg-navy-base text-white font-semibold text-lg shadow-xl hover:shadow-2xl hover:bg-navy-medium transition-all duration-300 hover:-translate-y-1 group"
-            >
-              <span>Start Your Digital Journey</span>
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Link>
-          </div>
+
         </div>
       </div>
     </section>
