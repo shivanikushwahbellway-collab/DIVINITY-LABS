@@ -56,7 +56,7 @@ const Footer = () => {
               {[
                 { to: "/", label: "Home" },
                 { to: "/about", label: "About Us" },
-                { to: "/contact", label: "Contact" },
+                // { to: "/contact", label: "Contact" },
               ].map((link) => (
                 <li key={link.to}>
                   <Link
@@ -79,7 +79,7 @@ const Footer = () => {
             <ul className="space-y-3">
               {[
                 { to: "/privacy-policy", label: "Privacy Policy" },
-                { to: "/terms-of-use", label: "Terms of Use" },
+                // { to: "/terms-of-use", label: "Terms of Use" },
               ].map((link) => (
                 <li key={link.to}>
                   <Link
